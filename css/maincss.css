@@ -1,7 +1,8 @@
-#thumbsUpDown {
-		margin-top:10%;	
+#banner {
+		width:auto;
+		height:30%;
 		}
-		
+
 #footer {
 		
 		text-align:center;
@@ -10,5 +11,9 @@
 		position:absolute;
 		bottom:0;
 		left:0;
-}
+		}
 		
+#aliproj {
+	
+
+	}

@@ -2,7 +2,7 @@
 		font-family: 'Roboto', sans-serif;
 		font-weight:300;
         text-align: center;
-        margin-top:%;
+        margin-top:1%;
 		}
 
 .textProj {
@@ -10,21 +10,26 @@
         
         }
 
-.menuButton {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 200;
-        color:black;
-        text-decoration: none;
-    
-    
-        }
-
 #menuItems {
         width:25%;
         margin: 0% auto;
         }
 
-.menuButton:hover {
+.menuButton {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        color:black;
+        text-decoration: none;
+        
+        -o-transition:color .4s ease-in-out;
+        -ms-transition:color .4s ease-in-out;
+        -moz-transition:color .4s ease-in-out;
+        -webkit-transition:color .4s ease-in-out;        
+        transition:color .4s ease-in-out;
+  
     
-    color:blue;
+        }
+
+.menuButton:hover {
+        color:#2196f3;
 }

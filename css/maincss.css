@@ -2,11 +2,26 @@
 		font-family: 'Roboto', sans-serif;
 		font-weight:300;
         text-align: center;
-        margin-top:15%;
+        margin-top:%;
 		}
 
-#constructText {
-        font-family: 'Roboto', sans-serif;
-        font-weight:100;
-        text-align: center;
+.textProj {
+        font-weight: 400;
+        
         }
+
+.menuButton {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        color:black;
+        text-decoration: none;
+        }
+
+#menuItems {
+        width:30%;
+        margin: 0% auto;
+        }
+
+td:hover {
+    
+}

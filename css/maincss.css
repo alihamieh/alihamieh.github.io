@@ -40,7 +40,7 @@
         color: black; 
         }
 
-#footBox {
+#credBox {
         
         bottom:1%;
         left:0;
@@ -71,4 +71,9 @@ div#slider figure {
   left: 0;
   
   animation: 20s slidy infinite; 
+}
+
+#techPara {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }

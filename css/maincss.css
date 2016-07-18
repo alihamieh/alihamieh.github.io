@@ -1,3 +1,4 @@
+
 #aliProj {
 		font-family: 'Roboto', sans-serif;
 		font-weight:300;
@@ -5,13 +6,13 @@
         margin-top:1%;
 		}
 
-.textProj {
-        font-weight: 400; 
-        }
-
 #menuItems {
-        width:17%;
-        margin: 0% auto;
+        width:20%;
+        margin: 0% auto;    
+        background-color: white;
+        }
+#menuItems:hover {
+        border-bottom: 2px solid blue;
         }
 
 .menuButton {
@@ -20,16 +21,17 @@
         color:black;
         text-decoration: none;
         
-        -o-transition:color .2s ease-in-out;
-        -ms-transition:color .2s ease-in-out;
-        -moz-transition:color .2s ease-in-out;
-        -webkit-transition:color .2s ease-in-out;        
-        transition:color .2s ease-in-out;
+       
   
         }
 
 .menuButton:hover {
         color:#2196f3;
+     -o-transition:color .2s ease-in-out;
+        -ms-transition:color .2s ease-in-out;
+        -moz-transition:color .2s ease-in-out;
+        -webkit-transition:color .2s ease-in-out;        
+        transition:color .2s ease-in-out;
         }
 
 #footer {
@@ -42,7 +44,7 @@
 
 #credBox {
         
-        bottom:1%;
+        bottom:0;
         left:0;
         right:0;
         position: absolute;
@@ -77,4 +79,30 @@ div#slider figure {
     
     text-align: center; 
     
+}
+
+
+#wamI {
+    width: 50%;
+    height: 40%;
+    float: left;
+    margin-left:5%;
+    
+    }
+
+/*sticky footer*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+   height: auto; !important
+    height: 100%;
+  margin-bottom: -10px;
+}
+footer,
+.push {
+  height: 10px;
 }

@@ -11,9 +11,7 @@
         margin: 0% auto;    
         background-color: white;
         }
-#menuItems:hover {
-        border-bottom: 2px solid blue;
-        }
+
 
 .menuButton {
         font-family: 'Roboto', sans-serif;

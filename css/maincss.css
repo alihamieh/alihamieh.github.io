@@ -88,9 +88,10 @@ animation: 20s slidy infinite;
     height: 40%;
     float: left;
     margin-left:5%;
+    
     font-family: 'Roboto', 'sans-serif';
     font-weight: 400;
-    
+    border-bottom: 2px solid #272727;
     }
 
 #aboutDesc {
@@ -101,8 +102,10 @@ animation: 20s slidy infinite;
 .folioInp {
         float: left;
         margin-left: 5%;
+        margin-right: 5%;
         height: 30%;
         width: 90%;
+        border-bottom: 2px solid #272727;
         }
 
 .inpImg {
@@ -122,6 +125,12 @@ animation: 20s slidy infinite;
 
 #inpGit {
         font-size:1.5em;
+        }
+
+#conEmail {
+        margin-left: 5%;
+        margin-right:5%;
+        border-bottom: 2px solid #272727;
         }
 
 /*sticky footer*/

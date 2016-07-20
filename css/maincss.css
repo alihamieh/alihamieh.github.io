@@ -84,11 +84,8 @@ animation: 20s slidy infinite;
 
 
 #wamI {
-    width: 50%;
-    height: 40%;
-    float: left;
-    margin-left:5%;
     
+    height: 60%;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 400;
     border-bottom: 2px solid #272727;
@@ -98,24 +95,29 @@ animation: 20s slidy infinite;
     font-size:1.3em
         }
 
-
 .folioInp {
-        float: left;
-        margin-left: 5%;
-        margin-right: 5%;
         height: 30%;
-        width: 90%;
         border-bottom: 2px solid #272727;
+        overflow: auto;
+        margin-top:2%;
         }
 
 .inpImg {
-        width:30%;
-        height: 30%;  
-        float: left;
+        width:40%;
+        height: 40%;
+        margin-top:2%;
+        float:left;
+        padding-right: 3%;
+       
         }
+.animation {
+        width:100%;
+        height: 100%;
+        margin-top:3%;
+        }
+
 .inpName {
         
-        margin-top: 3%;
         }
 
 .inpDesc {
@@ -123,13 +125,7 @@ animation: 20s slidy infinite;
         width: 60%;
         }
 
-#inpGit {
-        font-size:1.5em;
-        }
-
 #conEmail {
-        margin-left: 5%;
-        margin-right:5%;
         border-bottom: 2px solid #272727;
         }
 
